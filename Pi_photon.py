@@ -40,7 +40,7 @@ class PyPiCam_Go:
         self.photo_btn.pack()
 
         self.video_btn = Button(
-            self.btn_frame, text="Take A Photo", command=self.video1
+            self.btn_frame, text="Take A Video", command=self.video1
         )
         self.video_btn.pack()
 
